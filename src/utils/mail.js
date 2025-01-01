@@ -18,7 +18,7 @@ const sendEmail = async (email, title, otp) => {
   });
 
   await transporter.sendMail({
-    from: `"SkillNest" <${process.env.EMAIL_USER}>`,
+    from: `"Liv Abhi" <${process.env.EMAIL_USER}>`,
     to: email,
     subject: title,
     html: message,
