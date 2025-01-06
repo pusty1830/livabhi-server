@@ -18,4 +18,5 @@ module.exports = {
   Comment: require("./comment.model"),
   NewsLatter: require("./newslatter"),
   NewsandBlogs: require("./newsandblogs"),
+  Movies: require("./movies"),
 };

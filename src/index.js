@@ -40,7 +40,7 @@ sequilize
 //routes
 app.use("/api", require("./routes/index"));
 
-app.get("/", async (req, res) => {
+app.listen("/", async (req, res) => {
   try {
     // Simulate a database or API call
     res.send({ message: "API is working!" });
