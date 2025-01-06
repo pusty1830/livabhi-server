@@ -2628,3 +2628,10 @@ notNull Violation: payment.amount cannot be null
 2025-01-05 23:29:34 [INFO]: Connected to Redis
 2025-01-05 23:29:35 [INFO]: Database Connected Successfully
 2025-01-05 23:30:31 [INFO]: Database Synced Successfully
+2025-01-06 14:03:06 [INFO]: server is running on port 8080
+2025-01-06 14:03:07 [INFO]: Connected to Redis
+2025-01-06 14:03:08 [INFO]: Database Connected Successfully
+2025-01-06 14:03:40 [INFO]: server is running on port 8080
+2025-01-06 14:03:40 [INFO]: Connected to Redis
+2025-01-06 14:03:42 [INFO]: Database Connected Successfully
+2025-01-06 14:04:26 [INFO]: Database Synced Successfully

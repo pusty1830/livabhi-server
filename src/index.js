@@ -4,7 +4,7 @@ const logger = require("./utils/logger");
 const cors = require("cors");
 require("dotenv").config();
 const sequilize = require("./config/db.config");
-const path = require("path");
+// const path = require("path");
 
 //middleware
 app.use(
@@ -13,9 +13,9 @@ app.use(
   })
 );
 app.use(express.json());
-const _dirname = path.dirname("");
-const buildpath = path.join(_dirname, "../../liv-abhi-ui/build");
-app.use(express.static(buildpath));
+// const _dirname = path.dirname("");
+// const buildpath = path.join(_dirname, "../../liv-abhi-ui/build");
+// app.use(express.static(buildpath));
 
 //database
 sequilize
