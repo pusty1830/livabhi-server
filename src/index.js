@@ -40,6 +40,16 @@ sequilize
 //routes
 app.use("/api", require("./routes/index"));
 
+app.get("/", async (req, res) => {
+  try {
+    // Simulate a database or API call
+    res.send({ message: "API is working!" });
+  } catch (err) {
+    console.error("Error occurred:", err);
+    res.status(500).send({ error: "Internal server error" });
+  }
+});
+
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
