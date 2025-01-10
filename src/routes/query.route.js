@@ -24,9 +24,7 @@ router.route("/insertMany").post(
   // prepareBody,
   asyncHandler("", insertManyData)
 );
-router
-  .route("/get-all-record")
-  .get(prepareBody, verifySign, asyncHandler("", getAllRecod));
+router.route("/get-all-record").get(prepareBody, asyncHandler("", getAllRecod));
 router
   .route("/get-all-record-with-belongs-to")
   .post(prepareBody, asyncHandler("", getAllRecordBelongsTo));
@@ -42,8 +40,6 @@ router
   .route("/search-one-record")
   .get(verifySign, asyncHandler("", getOneDataByUniqeKey));
 
-router
-  .route("/search-record")
-  .post(prepareBody, verifySign, asyncHandler("", searchData));
+router.route("/search-record").post(prepareBody, asyncHandler("", searchData));
 //getone record
 module.exports = router;

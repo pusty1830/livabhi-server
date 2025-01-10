@@ -230,3 +230,16 @@ notNull Violation: payment.amount cannot be null
 2025-01-04 17:20:56 [ERROR]: Uncaught Exception: read ECONNRESET
 2025-01-04 17:24:01 [ERROR]: Uncaught Exception: read ECONNRESET
 2025-01-05 20:12:38 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 07:24:46 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:32:45 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:42:46 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:56:24 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:57:44 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 08:29:04 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 09:55:34 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 16:45:58 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.discount cannot be null
+2025-01-09 16:46:06 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.discount cannot be null
+2025-01-09 16:50:33 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 16:50:37 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 16:50:47 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 18:02:49 [ERROR]: Uncaught Exception: read ECONNRESET

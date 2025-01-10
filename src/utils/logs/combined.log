@@ -2651,3 +2651,61 @@ notNull Violation: payment.amount cannot be null
 2025-01-06 14:18:52 [INFO]: Connected to Redis
 2025-01-06 14:18:54 [INFO]: Database Connected Successfully
 2025-01-06 14:19:40 [INFO]: Database Synced Successfully
+2025-01-09 07:23:49 [INFO]: server is running on port 8080
+2025-01-09 07:23:50 [INFO]: Connected to Redis
+2025-01-09 07:23:53 [INFO]: Database Connected Successfully
+2025-01-09 07:24:46 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:31:54 [INFO]: server is running on port 8080
+2025-01-09 07:31:55 [INFO]: Connected to Redis
+2025-01-09 07:31:57 [INFO]: Database Connected Successfully
+2025-01-09 07:32:45 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:41:56 [INFO]: server is running on port 8080
+2025-01-09 07:41:56 [INFO]: Connected to Redis
+2025-01-09 07:41:58 [INFO]: Database Connected Successfully
+2025-01-09 07:42:46 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:55:34 [INFO]: server is running on port 8080
+2025-01-09 07:55:35 [INFO]: Connected to Redis
+2025-01-09 07:55:38 [INFO]: Database Connected Successfully
+2025-01-09 07:56:24 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 07:56:59 [INFO]: server is running on port 8080
+2025-01-09 07:56:59 [INFO]: Connected to Redis
+2025-01-09 07:57:01 [INFO]: Database Connected Successfully
+2025-01-09 07:57:44 [ERROR]: Error Syncing Database: Too many keys specified; max 64 keys allowed
+2025-01-09 08:21:16 [INFO]: server is running on port 8080
+2025-01-09 08:21:16 [INFO]: Connected to Redis
+2025-01-09 08:21:18 [INFO]: Database Connected Successfully
+2025-01-09 08:21:31 [INFO]: Database Synced Successfully
+2025-01-09 08:29:04 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 09:21:38 [INFO]: server is running on port 8080
+2025-01-09 09:21:39 [INFO]: Connected to Redis
+2025-01-09 09:21:41 [INFO]: Database Connected Successfully
+2025-01-09 09:22:38 [INFO]: Database Synced Successfully
+2025-01-09 09:55:34 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-09 16:36:10 [INFO]: server is running on port 8080
+2025-01-09 16:36:11 [INFO]: Connected to Redis
+2025-01-09 16:36:12 [INFO]: Database Connected Successfully
+2025-01-09 16:37:09 [INFO]: Database Synced Successfully
+2025-01-09 16:39:03 [INFO]: Stored data in Redis:
+2025-01-09 16:39:03 [INFO]: [object Object]
+2025-01-09 16:41:18 [INFO]: Stored data in Redis:
+2025-01-09 16:41:18 [INFO]: [object Object]
+2025-01-09 16:45:58 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.discount cannot be null
+2025-01-09 16:46:06 [ERROR]: Internal server error:SequelizeValidationError: notNull Violation: course.discount cannot be null
+2025-01-09 16:50:33 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 16:50:37 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 16:50:47 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
+2025-01-09 18:02:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 16:17:34 [INFO]: server is running on port 8080
+2025-01-10 16:17:35 [INFO]: Connected to Redis
+2025-01-10 16:17:37 [INFO]: Database Connected Successfully
+2025-01-10 16:18:32 [INFO]: Database Synced Successfully
+2025-01-10 16:20:27 [INFO]: server is running on port 8080
+2025-01-10 16:20:27 [INFO]: Connected to Redis
+2025-01-10 16:20:29 [INFO]: Database Connected Successfully
+2025-01-10 16:21:25 [INFO]: Database Synced Successfully
+2025-01-10 16:52:36 [INFO]: Stored data in Redis:
+2025-01-10 16:52:36 [INFO]: [object Object]
+2025-01-10 16:53:40 [INFO]: Stored data in Redis:
+2025-01-10 16:53:40 [INFO]: [object Object]
+2025-01-10 16:53:48 [INFO]: Stored data in Redis:
+2025-01-10 16:53:48 [INFO]: [object Object]
