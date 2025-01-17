@@ -6,7 +6,7 @@ module.exports = {
   Audio: require("./audio.model"),
   Pdf: require("./pdf.model"),
   JobPosting: require("./job.model"),
-  JobApplication: require("./jobApplication"),
+  JobApplication: require("./jobapplication.model"),
   portfolio: require("./portfolio"),
   portfolioProject: require("./portfolioProject"),
   portfolioPhoto: require("./portfolioPhoto"),
@@ -17,4 +17,5 @@ module.exports = {
   NewsLatter: require("./newslatter"),
   NewsandBlogs: require("./newsandblogs"),
   Movies: require("./movies"),
+  Contact: require("./contactus"),
 };

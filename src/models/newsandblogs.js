@@ -38,13 +38,17 @@ const NewsAndBlogs = sequelize.define(
       type: DataTypes.ENUM(
         "Hero Section",
         "Trending News",
-        "News & Blogs",
-        "Featured Post",
-        "Recent Posts",
+        "comic",
+        "series",
+        "movie",
+        "podcast",
+        "game",
+        "Culture & Lifestyle",
         "Trending News Video"
       ),
       allowNull: false,
     },
+
     videoUrl: {
       type: DataTypes.STRING,
       allowNull: true,

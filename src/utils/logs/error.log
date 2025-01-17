@@ -243,3 +243,34 @@ notNull Violation: payment.amount cannot be null
 2025-01-09 16:50:37 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
 2025-01-09 16:50:47 [ERROR]: Internal server error:TypeError: Cannot read properties of undefined (reading 'create')
 2025-01-09 18:02:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 17:53:30 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:54:13 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:54:52 [ERROR]: CurrentPassword is incorrect 
+2025-01-10 17:56:59 [ERROR]: Account not found
+2025-01-10 18:06:34 [ERROR]: Account not found
+2025-01-10 18:06:47 [ERROR]: Account not found
+2025-01-10 18:25:09 [ERROR]: Account not found
+2025-01-10 18:25:16 [ERROR]: Account not found
+2025-01-10 18:25:30 [ERROR]: Account not found
+2025-01-10 21:18:48 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 21:30:16 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 21:37:49 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-10 22:50:16 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-13 16:13:28 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:14:14 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:16:39 [ERROR]: Internal server error:TypeError: model[tableName].create is not a function
+2025-01-13 16:35:03 [ERROR]: Error Syncing Database: Cannot change column 'jobId': used in a foreign key constraint 'job_applications_ibfk_1'
+2025-01-13 16:37:29 [ERROR]: Error Syncing Database: Duplicate column name 'jobID'
+2025-01-13 16:40:47 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2025-01-13 16:42:05 [ERROR]: Error Syncing Database: Constraint job_applications_ibfk_1 on table job_applications does not exist
+2025-01-13 16:44:32 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:44:32 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:45:58 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:45:58 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:46:30 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:46:30 [ERROR]: Internal server error:SequelizeEagerLoadingError: job_application is not associated to job_application!
+2025-01-13 16:48:00 [ERROR]: Error Syncing Database: Failed to open the referenced table 'undefined'
+2025-01-13 16:50:09 [ERROR]: CurrentPassword is incorrect 
+2025-01-13 19:36:53 [ERROR]: Uncaught Exception: read ECONNRESET
+2025-01-13 20:05:00 [ERROR]: CurrentPassword is incorrect 
+2025-01-13 20:16:57 [ERROR]: Uncaught Exception: read ECONNRESET
